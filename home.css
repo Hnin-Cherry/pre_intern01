@@ -25,12 +25,17 @@
     font-size: 23px;
 }
 .menubar {
-  
-  background-color:white;
-  height: 10%;
-  width: 100%;
-  top: 200px;
-  left: 100px;
+    position: absolute;
+    background-color:white;
+    height: 10%;
+    width: 100%;
+    top: 200px;
+    left: 100px;
+}
+a{
+  float: left;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .mySlides {display: none;}
@@ -40,7 +45,7 @@ img {vertical-align: middle;}
 .slideshow-container {
     padding-top: 250px;
     max-width: 1000px;
-    position: relative;
+    
     margin-top: auto;
 }
 
